@@ -1,9 +1,9 @@
-import { CookieControl } from './.nuxt/components.d';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/device',
     '@nuxt/devtools',
+    '@nuxtjs/tailwindcss',
     '@dargmuesli/nuxt-cookie-control',
     '@nuxtjs/i18n',
     '@nuxtjs/robots',
@@ -50,8 +50,18 @@ export default defineNuxtConfig({
       necessary: [],
       optional: [],
     },
-    isAcceptNecessaryButtonEnabled: true,
+    isAcceptNecessaryButtonEnabled: false,
     isControlButtonEnabled: false,
     locales: ['en', 'fr'],
+  },
+  tailwindcss: {
+    config: {
+      plugins: [
+        require("daisyui")
+      ],
+      daisyui: {
+        themes: true,
+      }
+    }
   }
 })
