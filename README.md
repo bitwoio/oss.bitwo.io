@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/bitwoio/oss.bitwo.io/blob/main/.github/assets/banner.png" alt="Bitwo OSS Division logo"></p>
+<p align="center"><img src="https://github.com/bitwoio/oss.bitwo.io/blob/main/.github/assets/banner2.png" alt="Bitwo OSS Division logo"></p>
 
 <h1 id="title">Bitwo OSS Division</h1>
 
